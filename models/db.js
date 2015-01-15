@@ -2,7 +2,7 @@
 var mongoose = require('mongoose');
 
 //declaring a DATABASE URI
-var dbURI = 'localhost/donate';
+var dbURI = 'mongodb://donate:donate@ds039960.mongolab.com:39960/donate';
 
 //connecting to mongoose
 mongoose.connect(dbURI);
